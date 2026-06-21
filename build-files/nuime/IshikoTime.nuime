@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="https://nuime.org/schema/core/1">
-  <name>time</name>
+  <name>IshikoTime</name>
   <targets>
     <target>
-      <name>time-lib</name>
+      <name>lib</name>
       <labels>
         <label>nuime:product</label>
       </labels>
@@ -11,9 +11,9 @@
         <property name="nuime:test-suite">
           <target-ref>
             <location>
-              <url>https://github.com/ishiko-cpp/time/tests/build-files/nuime/time-tests.nuime</url>
+              <url>https://github.com/ishiko-cpp/time/tests/build-files/nuime/IshikoTimeTests.nuime</url>
             </location>
-            <name>time-tests</name>
+            <name>tests</name>
           </target-ref>
         </property>
       </properties>
@@ -21,12 +21,12 @@
   </targets>
   <subprojects>
     <subproject>
-      <name>time-tests</name>
+      <name>IshikoTimeTests</name>
       <labels>
         <label>nuime:tests</label>
       </labels>
       <location>
-        <url>https://github.com/ishiko-cpp/time/tests/build-files/nuime/time-tests.nuime</url>
+        <url>https://github.com/ishiko-cpp/time/tests/build-files/nuime/IshikoTimeTests.nuime</url>
       </location>
     </subproject>
   </subprojects>
