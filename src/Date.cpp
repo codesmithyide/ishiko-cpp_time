@@ -1,11 +1,11 @@
 /*
-    Copyright (c) 2021-2024 Xavier Leclercq
+    Copyright (c) 2021-2026 Xavier Leclercq
     Released under the MIT License
     See https://github.com/ishiko-cpp/time/blob/main/LICENSE.txt
 */
 
 #include "Date.hpp"
-#include <fmt/core.h>
+#include <fmt/format.h>
 
 using namespace Ishiko;
 

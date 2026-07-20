@@ -1,12 +1,12 @@
 /*
-    Copyright (c) 2022 Xavier Leclercq
+    Copyright (c) 2022-2026 Xavier Leclercq
     Released under the MIT License
     See https://github.com/ishiko-cpp/time/blob/main/LICENSE.txt
 */
 
 #include "UTCTime.hpp"
 #include "SystemTime.hpp"
-#include <fmt/core.h>
+#include <fmt/format.h>
 
 using namespace std;
 
